@@ -1,3 +1,16 @@
+# Background
+This repo is forked from UCSB, who updated the original Gradescope to use Maven and a JAR for jh61b. Changes are:
+
+* Changed from Maven 3.6.0 to 3.8.1. 
+* Changed from JUnit 4.12 to 5.7.2.
+* Changed maven-compiler-plugin from 3.5.1 to 3.8.1.
+* Changed maven target from Java 1.8 to 11. (Supposedly needed for JUnit 5.)
+* Updated install scripts to automatically handle jh61b install.
+
+Note that the Maven version change is to fix an issue with a reflective call made during run_autograder.
+
+-RA
+
 # To install jar for jh61b, use:
 
 Use:
@@ -21,7 +34,7 @@ You also need to adjust this part of the pom.xml.  The main class needs to be a 
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
-        <version>1.4.0</version>
+        <version>1.4.0</versio>
         <executions>
           <execution>
             <goals>
