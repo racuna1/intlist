@@ -13,4 +13,5 @@ tar xzvf apache-maven-3.8.1-bin.tar.gz
 
 #rA: install jh61b manually
 cd /autograder/source
+export PATH="/autograder/apache-maven-3.8.1/bin:$PATH"
 mvn install:install-file -Dfile=lib/jh61b-1.0.jar

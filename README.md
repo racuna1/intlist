@@ -1,5 +1,5 @@
 # Background
-This repo is forked from UCSB, who updated the original Gradescope to use Maven and a JAR for jh61b. Changes are:
+This repo is forked from UCSB, who updated the original Gradescope demo to use Maven and a JAR for jh61b. Changes are:
 
 * Changed from Maven 3.6.0 to 3.8.1. 
 * Changed from JUnit 4.12 to 5.7.2.
